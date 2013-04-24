@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/butoption"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/butoption"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/butmainmenu"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/butnumber"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/number" />
+
+            <Button
+                android:id="@+id/butmult"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/multitable" />
+
+            <Button
+                android:id="@+id/butaddition"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/addition" />
+
+            <Button
+                android:id="@+id/butconversion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/conversion" />
+
+            <Button
+                android:id="@+id/butwebsite"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/mathexweb" />
+
+            <Button
+                android:id="@+id/butcred"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="About" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

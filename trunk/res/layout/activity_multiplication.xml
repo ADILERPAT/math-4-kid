@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Multiplication" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/multitable"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/butoption"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cam2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/butoption"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="37dp"
+        android:background="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/butmusicmult"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/butoption"
+        android:layout_alignBottom="@+id/butoption"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/musicnew" />
+
+</RelativeLayout>
