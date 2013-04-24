@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math4Kids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="content">Content</string>
+    <string name="number">Numbers</string>
+    <string name="multitable">Multiplication Table</string>
+    <string name="maindesc">Math4Kids</string>
+    <string name="title_activity_slide">Math4Kids</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="go">GO</string>
+    <string name="maindecription">Kids .!Practice Math .! Have Fun .!</string>
+    <string name="title_activity_multiplication">Maths4Kids</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_numbers">Numbers</string>
+    <string name="startnumber">Start With Numbers</string>
+    <string name="math4kids">Math4Kids</string>
+    <string name="addition">Addition</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="conversion">Conversion</string>
+    <string name="title_activity_conversion">Conversion</string>
+    <string name="home">Home</string>
+    <string name="title_activity_website">Maths4Kid</string>
+    <string name="mathexweb">Math Exercises</string>
+    <string name="title_activity_test">Test</string>
+    <string name="additionworks">How Addition Works</string>
+
+</resources>
