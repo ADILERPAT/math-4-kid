@@ -1,0 +1,1 @@
+A math app that makes maths easier and interesting for kids through illustrated number countings, multipliation tables, number conversions, addition tables
